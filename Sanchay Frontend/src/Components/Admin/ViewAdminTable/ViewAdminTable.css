@@ -1,0 +1,11 @@
+.view-admins-t{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    row-gap: 20px;
+}

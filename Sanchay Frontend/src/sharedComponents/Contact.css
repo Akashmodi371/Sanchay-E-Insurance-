@@ -1,0 +1,25 @@
+.contact-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 200px;
+  
+  border: 1px solid black;
+  max-width: 100%;
+  width: 50%;
+  margin-left: 25%;
+  height: 370px;
+  box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  /* padding: 20px; */
+}
+
+.title-field{
+  margin-right: 10%;  
+  /* width: 460px; */
+}
+/* 
+#message{
+  width: 300px;
+} */
+

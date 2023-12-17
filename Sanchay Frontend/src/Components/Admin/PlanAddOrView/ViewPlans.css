@@ -1,0 +1,72 @@
+/* ViewPlans.css */
+
+.div-view-plans {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 130px;
+  }
+  
+  /* Style for the search filter and page size dropdown */
+  input[type="text"],
+  select {
+    padding: 5px;
+    width: 100%;
+    margin-top: 10px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    border: 1px solid #000000;
+    font-weight: 700;
+  }
+  .tbody{
+    border: 1px solid black;
+  }
+  
+  /* Style for table headers */
+  th {
+    background-color: #ffffff;
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+    align-items: center;
+  }
+  
+  /* Style for table cells */
+  td {
+    padding: 8px;
+    border: 1px solid black;
+    align-items: center ;
+    /* border-top: 1px solid #ccc; */
+  }
+  
+  /* Style for pagination buttons */
+  button {
+    padding: 5px 10px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style for the "Page X of Y" text */
+  span {
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  

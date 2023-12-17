@@ -1,0 +1,66 @@
+.div-agentview{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 100px;
+   
+}
+.div-agentview>table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 1px solid black;
+    /* overflow-x: auto; */
+  }
+
+ .table-container-agent{
+  overflow-x: auto;
+ } 
+  
+  /* Style the table headers */
+  /* .table th {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+  } */
+  
+  /* Style the table rows */
+  .table td, .table th {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: center;
+  }
+
+  
+  /* Style alternating rows with a different background color */
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+    color: black;
+  }
+  
+  /* Style the container div */
+  .div-agent {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Center the table within the container */
+  .table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Add some spacing between the header and the table */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .agent-table-header{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    display: flex;
+    /* justify-content:left; */
+    margin-right: 87%;
+    flex-direction: column;
+    /* align-items:center; */
+  }

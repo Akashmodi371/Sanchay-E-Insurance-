@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: right;
+}
+
+.Plan-detail{
+    margin-top: 20px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Calculator-div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}

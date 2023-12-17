@@ -1,0 +1,53 @@
+.calculator {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 1500px;
+    width: 90%;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+  }
+  
+  .input-container {
+    margin: 10px 0;
+    color: #000000;
+  }
+  
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 5px;
+    
+  }
+  
+  button {
+    background-color: #007bff;
+    color: rgb(2, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .results-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    
+  }
+  
+  .results-table th,
+  .results-table td {
+    border: 1px solid #000000;
+    padding: 8px;
+  }
+  
+  .results-table th {
+    background-color: #000000;
+  }
+  
+  .results-table td {
+    text-align: center;
+    color: #000000;
+  }

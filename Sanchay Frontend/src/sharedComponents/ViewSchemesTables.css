@@ -1,0 +1,12 @@
+.view-scheme-div-customer{
+    max-width: 100%;
+    /* width: 50%; */
+   color: black;
+   /* background-color: white; */
+}
+
+.view-scheme-table{
+    height: 200px;
+    max-height: 300px;
+    overflow-y: auto;
+}

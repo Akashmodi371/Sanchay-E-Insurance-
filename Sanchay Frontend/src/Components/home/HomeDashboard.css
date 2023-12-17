@@ -1,0 +1,27 @@
+/* Carousel.css */
+.carousel {
+    /* position: fixed; */
+    /* margin: 5px; */
+    margin-top: 80px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+    /* z-index: -100; */
+  }
+
+ .img{
+    height: 100%;
+    max-width: 100%
+ } 
+
+
+ .Carousel>.Carousel.Item>Image{
+   display: block;
+   height: auto;
+   max-width: 100%;
+   line-height: 1;
+   margin:auto;
+   width: 100%; 
+   height: 100%;
+   }
+  

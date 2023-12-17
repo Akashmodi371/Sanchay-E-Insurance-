@@ -1,0 +1,102 @@
+.scheme-form-container {
+    width: 80%;
+    margin: 0 auto;
+    /* border: 1px solid #ddd; */
+    padding: 20px;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 130px;
+    /* height: 700px; */
+    /* border: 2px solid black; */
+    overflow-y: auto;
+    
+  }
+
+  .scheme-form{
+    height: 500px;
+    overflow-y: auto;
+    border: 1px solid black;
+    padding:50px 100px;
+    box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .form-group {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-actions {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Style the select dropdown arrow */
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Optional: Style the form on smaller screens */
+  @media (max-width: 768px) {
+    .scheme-form-container {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .form-row {
+      flex-direction: column;
+    }
+  
+    .form-group {
+      margin-right: 0;
+    }
+  
+    button {
+      width: 100%;
+      margin-left: 0;
+    }
+  }
+  

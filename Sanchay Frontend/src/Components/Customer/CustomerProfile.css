@@ -1,0 +1,14 @@
+.customer-profile-container{
+  max-width: 100%;
+  margin-top: 110px;
+  margin-bottom: 0px;
+  background-color: rgb(252, 252, 252);
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 590px;
+  overflow: hidden;
+}
+.customer-profile-container>form{
+  height: 500px; /* Set the desired height */
+  overflow-y: auto;
+}

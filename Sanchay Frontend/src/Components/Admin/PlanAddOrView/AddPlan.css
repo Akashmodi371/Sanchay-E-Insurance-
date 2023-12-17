@@ -1,0 +1,36 @@
+.div-addplan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px; /* Adjust the margin as needed */
+    border: 1px solid #ccc; /* Add a border to the div */
+    padding: 10px; /* Add some padding to the div */
+    max-width: 300px;
+    margin-left: 700px;
+    /* Set the maximum width of the container */
+  }
+  
+  .div-addplan input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin: 5px 0;
+    border: 1px solid #ccc; /* Add a border to the input field */
+    border-radius: 3px; /* Add rounded corners to the input field */
+  }
+  
+  .div-addplan button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Add a smooth transition for background color */
+  }
+  
+  .div-addplan button:hover {
+    background-color: #0056b3; /* Change background color on hover */
+  }
+  

@@ -1,0 +1,80 @@
+/* CSS for Navbar */
+.navbar {
+    background-color: #ffffff00; /* Background color for the navbar */
+    color: #ffffff; /* Text color */
+    padding: 10px 0; /* Add some padding to the navbar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space elements evenly along the horizontal axis */
+    align-items: center; /* Center items vertically */
+  }
+  
+  .container-nav {
+    display: flex; /* Use flexbox for layout within container */
+    align-items: center; /* Center items vertically within the container */
+    background-image: linear-gradient(to right top,
+   #ffffff, #39017a, ffffff#4c0297,
+   #6003b6, #7603d5, #ffffff, #ffffff, #7265ff,
+    #6b86ff, #ffffff, #8cbbff, #ffffff);
+    width: 100%;
+    height: 100%;
+  }
+  
+  .logo {
+    margin-left: 140px;
+    flex: 1; /* Allow the logo to take up available space */
+  }
+  
+  ul {
+    list-style: none; /* Remove bullet points from list */
+    margin: 200px;
+    padding: 0;
+  }
+  
+  ul li {
+    display: inline-block; /* Display list items horizontally */
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+     /* Add some spacing between list items */
+  }
+  
+  ul li:last-child {
+    margin-right: 0; /* Remove margin from the last list item */
+  }
+  
+  /* Style for buttons */
+  button {
+    background-color: transparent;
+    border: none;
+    color: #000000;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+  
+  button:hover {
+    color: rgb(255, 255, 255); /* Change text color on hover */
+  }
+  
+
+  .nav-elements{
+    margin-top: 5px;
+  }
+
+
+  .content{
+    max-width:100%;
+    height: 300px;
+    margin-top: 10px;
+    /* z-index: -1000; */
+  }
+
+
+  .footer{
+    background-color: rgb(0, 111, 202);
+    height: 100px;
+    max-width: 100%;
+    margin: 180px 0px 0px 0px;
+    /* z-index: -100; */
+  }
+

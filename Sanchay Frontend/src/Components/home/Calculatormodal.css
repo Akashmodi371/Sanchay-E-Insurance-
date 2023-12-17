@@ -1,0 +1,8 @@
+.calculatormodal-div{
+    background-color: red;
+    display: flex;
+    margin-top: 300px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

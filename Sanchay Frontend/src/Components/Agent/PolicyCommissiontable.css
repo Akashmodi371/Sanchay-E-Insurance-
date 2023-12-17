@@ -1,0 +1,18 @@
+.policy-div-agent-commssion{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    width: 80%;
+    margin-left: 10%;
+    
+}
+.total-commsion-div{
+    margin-left: 83%;
+    background-color: white;
+    color: black    ;
+    font-weight: 800;
+    padding: 5px;
+}

@@ -1,0 +1,49 @@
+.receipt {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .receipt h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .receipt-table th,
+  .receipt-table td {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+  }
+  
+  .receipt-table th {
+    font-weight: bold;
+    background-color: #f0f0f0;
+  }
+  
+  button {
+    display: block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  

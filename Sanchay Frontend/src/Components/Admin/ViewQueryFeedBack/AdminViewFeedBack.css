@@ -1,0 +1,15 @@
+.view-feedback-modal{
+    display: flex;
+    justify-content: center;
+    margin-top: 200px;
+    max-width: 100%;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.view-feedback-table{
+    max-width: 100%;
+    width: 80%;
+}

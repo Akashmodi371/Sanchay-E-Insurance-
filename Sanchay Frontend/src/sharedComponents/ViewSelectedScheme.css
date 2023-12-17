@@ -1,0 +1,20 @@
+.view-selected-scheme-div{
+    /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* margin-top: 00px; */
+    /* align-items: center; */
+    height: 350px;
+    overflow-y: auto;
+    width: 100%;
+    width: 90%;
+    margin-left: 5%;
+}
+.view-selected-tbody{
+    border: 1px solid black;
+    height: 200px;
+    margin-top: 300px;
+    overflow-y: auto;
+    
+}
+

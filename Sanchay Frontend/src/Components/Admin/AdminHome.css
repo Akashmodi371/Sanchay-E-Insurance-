@@ -1,0 +1,143 @@
+/* Admin.css */
+
+/* Styles for the overall container */
+.admin-container {
+    display: flex;
+    /* flex-direction: column; */
+    height: 130vh; /* Full viewport height */
+    margin-top: 70px;
+    margin-bottom: 200px;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    background-color: #333;
+    color: #000000;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    cursor: pointer;
+  }
+  
+  /* Content styles */
+  .content {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+  
+  /* Card styles */
+  .cards-container-admin {
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    align-items: center;
+    
+    /* margin-top: 100px; */
+    
+  }
+  
+  .card-admin {
+    background-color: #ffffff34;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    height: 170px;
+    width: 170px;
+  }
+ 
+
+  .card-admin>img{
+    height: 100px;
+    background-color: rgb(249, 172, 205);
+    color: #000000;
+    border-radius: 50%;
+    width: 100px;
+  }
+  .card-admin>img:hover{
+    height: 120px;
+    border-radius: 50%;
+    width: 120px;
+  }
+  .card-admin h3 {
+    color: #000000;
+    text-wrap: pretty;
+    font-size: 18px;
+    margin-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .card-row{
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    
+
+  }
+
+
+
+  .card-admin h3:hover{
+    color: #ffffff;
+    text-wrap: pretty;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  /* Additional styling as needed */
+  
+
+  /* Agent Register form CSS */
+
+  .registration-form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 210vh;
+    background-color: #a8a8a8;
+    margin-top: 60px;
+  }
+  
+  .registration-form {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 700px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 6px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .error {
+    color: #ff0000;
+    font-size: 12px;
+    margin-top: 4px;
+  }
+
+  /* Agent Register form Css  */

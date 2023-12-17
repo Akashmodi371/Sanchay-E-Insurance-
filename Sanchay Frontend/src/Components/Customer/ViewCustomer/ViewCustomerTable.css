@@ -1,0 +1,48 @@
+.div-cutomerview{
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 150px;
+    color: rgb(0, 0, 0);
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+  }
+  
+  /* Style the table headers */
+  .table th {
+    background-color:white;
+    color: #000000;
+    padding: 10px;
+  }
+  
+  /* Style the table rows */
+  .table td, .table th {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style alternating rows with a different background color */
+  .table tbody tr:nth-child(even) {
+    background-color: white;
+  }
+  
+  /* Style the container div */
+  .div-agent {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Center the table within the container */
+  .table {
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  /* Add some spacing between the header and the table */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }

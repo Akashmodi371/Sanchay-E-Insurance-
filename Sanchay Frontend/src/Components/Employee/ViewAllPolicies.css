@@ -1,0 +1,17 @@
+.div-policies-employee{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 80%px;
+    max-width: 100%; */
+    /* height: 600px; */
+    /* border: 0.5px solid black; */
+    /* margin-top: 100px;  */
+    margin: 5% 10%;
+    color: white;
+    margin-top: 100px;
+    /* height: 500px;
+    overflow-y: auto;
+    */
+}

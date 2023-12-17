@@ -1,0 +1,9 @@
+.document-div{
+    max-width: 800px;
+    display: flex;
+    margin-left: 500px;
+}
+.document-modal{
+    margin-top: 150px;
+
+}
